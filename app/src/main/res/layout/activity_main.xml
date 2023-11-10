@@ -1,0 +1,46 @@
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:textColor="@color/black"
+            android:text="BMI Calculator"
+            android:layout_marginTop="40dp"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/editTextWeight"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:hint="Please Enter Weight in kilograms"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/editTextHeight"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:hint="Please Enter Height in meters"
+            android:inputType="numberDecimal"
+            />
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="40dp"
+            android:text="Calculate BMI"
+            />
+
+    </LinearLayout>
